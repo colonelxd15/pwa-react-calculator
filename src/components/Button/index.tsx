@@ -9,7 +9,7 @@ interface IProps {
 };
 
 export default function Button(props: IProps):ReactElement {
-  const { value, children, className } = props;
+  const { children, className } = props;
   const btnAdditionalClassName = className ? styles[className] : '';
 
   return (

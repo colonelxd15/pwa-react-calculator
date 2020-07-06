@@ -1,5 +1,4 @@
 import React, { ReactElement } from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import Display from './components/Display';
 import Button from './components/Button';
