@@ -14,4 +14,4 @@ export default function Button(props: IProps):ReactElement {
       {children}
     </button>
   );
-}
+};
