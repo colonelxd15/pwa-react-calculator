@@ -1,0 +1,12 @@
+.btn{
+  width: 75px;
+  height: 75px;
+
+  &.horizontal-half{
+    width: 150px;
+  }
+  
+  &.vertical-half{
+    height: 150px;
+  }
+}
