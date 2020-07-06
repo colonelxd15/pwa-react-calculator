@@ -1,5 +1,4 @@
 name: Build and Deploy
-
 on:
   push:
     branches:
@@ -12,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout Repo's Master Branch
-      - uses: actions/checkout@master
+        uses: actions/checkout@master
       - name: Install Project Dependencies
         run: npm install
       - name: Build App
@@ -26,6 +25,7 @@ jobs:
     name: Deploy to Firebase
     needs: build
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
